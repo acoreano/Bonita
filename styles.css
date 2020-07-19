@@ -54,7 +54,7 @@ body {
   position: absolute;
   top: 15%;
   left: 42%;
-  transform: scale(1.7);
+  transform: scale(1.9);
   padding: 12px;
   clip-path: circle(40%);
 }
