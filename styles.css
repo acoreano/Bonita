@@ -1,4 +1,4 @@
-* {
+* {box-sizing: border-box;
   margin: 0;
 }
 
@@ -94,6 +94,12 @@ top:5%; right:23%;}
 }
 
 .butterfly1 {top:30%; left:2%; position: absolute;}
+    
+   .butterfly1 {animation-name: butterfly;animation-duration: 5s;  animation-iteration-count: infinite;animation-direction: alternate;z-index: 1000;}
+
+
+
+
 
 .smile {
   font-family: "Gamja Flower", cursive;
@@ -143,4 +149,18 @@ top:5%; right:23%;}
     }
   }
   
+
+    @keyframes butterfly {
+        0% { top: 0; left: 0; }
+        10% {top:20%;left:10%;}
+        20% {top:30%; left 35%;}
+        30% { top: 50%; left:60%;}
+        40%  { top:80%, left:40%;  }
+
+        60% {bottom:10%;right:30%;}
+        75% {top:5%,left:50%;}
+        100% { top: 100px; left: 100%; }
+      }
+
+
 
