@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("flower.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.main1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.bonita1 {
+  border-radius: 20%;
+  opacity: 0.6;
+  box-shadow: red 20px 20px 50px 50px;
+  border-style: groove;
+  position: absolute;
+  left: 16%;
+  top: 3%;
+  transform: rotate(-25deg);
+}
+
+.writing {
+  display: inline-flex;
+  font-family: "Gamja Flower", cursive;
+  font-weight: 900;
+  font-size: xx-large;
+  position: absolute;
+  top: 51%;
+  left: 21%;
+  transform: scale(1.5);
+  transform: rotate(-29deg);
+}
+
+.rose1 {
+  flex: content;
+
+  animation-name: rose;
+  animation-duration: 7s;
+  position: absolute;
+  right: 2%;
+  top: 1%;
+}
+
+.quote1 {
+  border-radius: 20%;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: scale(1.7);
+  padding: 12px;
+  clip-path: circle(40%);
+}
+
+.bonita2 {
+  transform: rotate(30deg);
+  opacity: 0.8;
+  box-shadow: red 20px 20px 50px 50px;
+  border-style: groove;
+  border-radius: 20%;
+  position: absolute;
+  right: 8%;
+  bottom: 10%;
+}
+
+.daisy {
+  position: absolute;
+  bottom: 3%;
+}
+
+.hold1 {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+}
+
+.cartoon1 {
+  bottom: 7%;
+  position: absolute;
+  left: 40%;
+}
+
+.butterfly1 {top:30%; left:2%; position: absolute;}
+
+.smile {
+  font-family: "Gamja Flower", cursive;
+  font-weight: 900;
+  font-size: xx-large;
+  position: absolute;
+  right: 23%;
+  bottom: 3%;
+  transform: rotate(29deg);
+}
+
+@keyframes rose {
+  0% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 600px) {
+  .quote1 {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .cartoon1 {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .hold1 {
+    display: none;
+  }
+}
+
+
+
