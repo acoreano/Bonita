@@ -54,11 +54,10 @@ body {
   position: absolute;
   top: 10%;
   left: 40%;
-  transform: scale(1.9);
   padding: 12px;
   clip-path: circle(40%);
 }
-
+  .quote1{transform: scale(1.9);}
 .bonita2 {
   transform: rotate(30deg);
   opacity: 0.8;
@@ -111,7 +110,7 @@ top:5%; right:23%;}
   transform: rotate(29deg);
 }
 
-.corazon {transform: scale(1.2);position: absolute; left:37%;bottom:0%; transform: rotate(36deg);}
+.corazon {position: absolute; left:37%;bottom:0%; transform: rotate(36deg);}
 
   .sands {font-family: "Gamja Flower", cursive;font-weight: 800;font-size: xx-large;position: absolute;left: 44%;bottom :37%;transform: rotate(-35deg);
   
