@@ -202,7 +202,11 @@ body {
   @media (max-width: 600px) {
     .lock1 {display:none;}
     }
-  
+    @media (max-width: 600px) {
+        .link1 {
+          display: none;
+        }
+      }
 
   @keyframes butterfly {
     0% {
