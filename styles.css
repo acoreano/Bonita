@@ -199,6 +199,11 @@ body {
     }
   }
 
+  @media (max-width: 600px) {
+    .lock1 {display:none;}
+    }
+  
+
   @keyframes butterfly {
     0% {
       top: 0;
