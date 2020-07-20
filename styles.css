@@ -208,6 +208,11 @@ body {
         }
       }
 
+      @media (max-width: 600px) {
+        body {height: 100vh;
+        }
+      }
+
   @keyframes butterfly {
     0% {
       top: 0;
