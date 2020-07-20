@@ -122,6 +122,12 @@ body {
   transform: rotate(29deg);
 }
 
+.lock1 {opacity: 0.8;transform: scale(.6)}
+
+.link1 {position: absolute;left:2.6%;top:16%;font-family: "Gamja Flower", cursive;
+    font-weight: 900;
+    font-size: xx-large;color:black}
+
 .corazon {
   position: absolute;
   left: 37%;
