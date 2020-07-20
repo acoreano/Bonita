@@ -136,7 +136,7 @@ body {
   position: absolute;
   left: 42%;
   bottom: 30%;
-  transform: rotate(-35deg);
+  transform: rotate(-35deg);}
 
   @keyframes rose {
     0% {
@@ -215,4 +215,4 @@ body {
       display: none;
     }
   }
-}
+
