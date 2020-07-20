@@ -52,8 +52,8 @@ body {
 .quote1 {
   border-radius: 20%;
   position: absolute;
-  top: 15%;
-  left: 42%;
+  top: 10%;
+  left: 40%;
   transform: scale(1.9);
   padding: 12px;
   clip-path: circle(40%);
@@ -83,14 +83,14 @@ top:5%; right:23%;}
 
 .hold1 {
   position: absolute;
-  bottom: 10%;
-  left: 50%;
+  bottom: 11%;
+  left: 52%;
 }
 
 .cartoon1 {
-  bottom: 7%;
+  bottom: 9%;
   position: absolute;
-  left: 40%;
+  left: 43%;
 }
 
 .butterfly1 {top:30%; left:2%; position: absolute;}
@@ -110,6 +110,11 @@ top:5%; right:23%;}
   bottom: 3%;
   transform: rotate(29deg);
 }
+
+.corazon {transform: scale(1.2);position: absolute; left:37%;bottom:0%; transform: rotate(36deg);}
+
+  .sands {font-family: "Gamja Flower", cursive;font-weight: 800;font-size: xx-large;position: absolute;left: 44%;bottom :37%;transform: rotate(-35deg);
+  
 
 @keyframes rose {
   0% {
@@ -163,4 +168,9 @@ top:5%; right:23%;}
       }
 
 
-
+      @media (max-width: 600px) {
+        .corazon {
+          display: none;
+        }
+      
+    }
