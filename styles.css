@@ -122,11 +122,20 @@
   transform: rotate(29deg);
 }
 
-.lock1 {opacity: 0.8;transform: scale(.6)}
+.lock1 {
+  opacity: 0.8;
+  transform: scale(0.6);
+}
 
-.link1 {position: absolute;left:2.6%;top:16%;font-family: "Gamja Flower", cursive;
-    font-weight: 900;
-    font-size: xx-large;color:black}
+.link1 {
+  position: absolute;
+  left: 2.6%;
+  top: 16%;
+  font-family: "Gamja Flower", cursive;
+  font-weight: 900;
+  font-size: xx-large;
+  color: black;
+}
 
 .corazon {
   position: absolute;
@@ -142,117 +151,143 @@
   position: absolute;
   left: 42%;
   bottom: 30%;
-  transform: rotate(-35deg);}
+  transform: rotate(-35deg);
+}
 
-  .bonita4 {width: 200px;border-style: groove;
+.bonita4 {
+  width: 200px;
+  border-style: groove;
   opacity: 1;
   border-style: groove;
-  position: absolute;bottom:-229%;left:15%;transform: rotate(30deg);clip-path:polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);;}
+  position: absolute;
+  bottom: -229%;
+  left: 15%;
+  transform: rotate(30deg);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
 
-  .bonita4-wrap{filter: drop-shadow(25px 25px 10px  rgba(235, 52, 52, 1.0));
-    border-style: groove; }
+.bonita4-wrap {
+  filter: drop-shadow(25px 25px 10px rgba(235, 52, 52, 1));
+  border-style: groove;
+}
 
-  @keyframes rose {
-    0% {
-      opacity: 0.2;
-    }
-
-    50% {
-      opacity: 0.5;
-    }
-
-    100% {
-      opacity: 1;
-    }
-  }
-  @media (max-width: 600px) {
-    .quote1 {
-      display: none;
-    }
-  }
-
-  @media (max-width: 600px) {
-    .cartoon1 {
-      display: none;
-    }
-  }
-
-  @media (max-width: 600px) {
-    .hold1 {
-      display: none;
-    }
-  }
-  @media (max-width: 600px) {
-    .bonita3 {
-      display: none;
-    }
+.new-header {
+  text-transform: uppercase;
+}
+@keyframes rose {
+  0% {
+    opacity: 0.2;
   }
 
-  @media (max-width: 600px) {
-    .sands {
-      display: none;
-    }
+  50% {
+    opacity: 0.5;
   }
 
-  @media (max-width: 600px) {
-    .bonita4 {
-      display: none;
-    }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 600px) {
+  .quote1 {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .cartoon1 {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .hold1 {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .bonita3 {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .sands {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .bonita4 {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .lock1 {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .link1 {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    height: 100vh;
+  }
+}
+
+@keyframes butterfly {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  10% {
+    top: 20%;
+    left: 10%;
+  }
+  20% {
+    top: 30%;
+    left: 35%;
+  }
+  30% {
+    top: 50%;
+    left: 60%;
+  }
+  40% {
+    top: 80%;
+    left: 40%;
   }
 
-  @media (max-width: 600px) {
-    .lock1 {display:none;}
-    }
-    @media (max-width: 600px) {
-        .link1 {
-          display: none;
-        }
-      }
-
-      @media (max-width: 600px) {
-        body {height: 100vh;
-        }
-      }
-
-  @keyframes butterfly {
-    0% {
-      top: 0;
-      left: 0;
-    }
-    10% {
-      top: 20%;
-      left: 10%;
-    }
-    20% {
-      top: 30%;
-      left: 35%;
-    }
-    30% {
-      top: 50%;
-      left: 60%;
-    }
-    40% {
-      top: 80%;
-      left: 40%;
-    }
-
-    60% {
-      bottom: 10%;
-      right: 30%;
-    }
-    75% {
-      top: 5%;
-      left: 50%;
-    }
-    100% {
-      top: 100px;
-      left: 80%;
-    }
+  60% {
+    bottom: 10%;
+    right: 30%;
   }
-
-  @media (max-width: 600px) {
-    .corazon {
-      display: none;
-    }
+  75% {
+    top: 5%;
+    left: 50%;
   }
+  100% {
+    top: 100px;
+    left: 80%;
+  }
+}
 
+@media (max-width: 600px) {
+  .corazon {
+    display: none;
+  }
+}
