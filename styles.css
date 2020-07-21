@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-body {
+.body1 {
   background-image: url("flower.jpg");
   background-size: cover;
   background-repeat: no-repeat;
