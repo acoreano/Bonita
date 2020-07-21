@@ -182,9 +182,7 @@
   border-style: groove;
 }
 
-.new-header {
-  text-transform: uppercase;
-}
+
 @keyframes rose {
   0% {
     opacity: 0.2;
