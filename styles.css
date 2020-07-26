@@ -1,7 +1,14 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0;padding: 0;
 }
+
+/* 
+--misty-rose: hsla(0, 40%, 91%, 1);
+--twilight-lavender: hsla(317, 25%, 37%, 1);
+--carolina-blue: hsla(206, 88%, 55%, 1);
+--mountain-meadow: hsla(170, 100%, 37%, 1);
+--rich-black: hsla(180, 38%, 16%, 1);*/
 
 .body1 {
   background-image: url("flower.jpg");
@@ -187,6 +194,41 @@
     opacity: 1;
   }
 }
+
+.page2-list {position: relative;top:0 px;
+  display: inline-block;
+  width:10%;list-style: none;background-color: hsla(0, 40%, 91%, 1);height:100vh;}
+
+.page2-body {margin: 0 auto;
+  width: 80%;height:100vh;}
+
+
+
+li {display:inline-flex;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;justify-content:center;font-size: 28px;
+
+;width: 100px;height:100px;}
+
+  .hero {position: relative;top:145px;
+    display: inline-block;  background-image: 
+    url("yellow1.jpg");width: 575px;height:300px;background-position: bottom;transform: rotate(-30deg);border-radius: 90px; border-style:ridge ;border-width: 4px;}
+
+    iframe {border-radius: 30px;position: relative;bottom:140px;left:25px;}
+
+    .poem1 {opacity:.6; width: 180px;height:275px; border-radius: 26px;border-style: solid;border-color:orangered;position: relative; top:15px;left:125px}
+
+    
+
+    .page2-body {height:100vh;
+      background-image: url("pastel.jpg");background-size: cover;background-repeat: no-repeat;}
+
+
+.writing {font-family:  'Cedarville Cursive', cursive;font-size: 80px;color: orangered;position: relative;bottom:130px}
+
+.heart1 {position: relative;bottom:300px;right: 840px;}
+
+
+
 @media (max-width: 1024px) {
   .quote1 {
     display: none;
@@ -274,3 +316,4 @@
     display: none;
   }
 }
+
