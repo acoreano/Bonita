@@ -285,12 +285,13 @@ iframe {
   background-repeat: no-repeat;
 }
 
-.writing2 {
+.writing2 {display: inline-block;
   font-family: "Cedarville Cursive", cursive;
   font-size: 80px;
   color: orangered;
   position: relative;
-  bottom: 130px;
+  bottom: 150px;left:350px;
+  transform: rotate(-30deg);
 }
 
 .heart1 {
