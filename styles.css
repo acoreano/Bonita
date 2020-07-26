@@ -128,11 +128,8 @@
   bottom: 3%;
   transform: rotate(29deg);
 }
-.open {
-  position: relative;
-  bottom: 600px;
-  left: 1050px;
-}
+
+
 .lock1 {
   position: absolute;
   top: 1%;
@@ -223,8 +220,8 @@
 
 .page2-body {
   margin: 0 auto;
- 
-  height: 100vh;
+ height:100vh;
+  
 }
 
 li {
@@ -239,7 +236,7 @@ li {
 
 .hero {
   position: relative;
-  top: 145px;
+  top: 195px;left:50px;
   display: inline-block;
   background-image: url("yellow1.jpg");
   width: 575px;
@@ -282,15 +279,18 @@ iframe {
   font-size: 80px;
   color: orangered;
   position: relative;
-  bottom: 150px;left:350px;
+  bottom: 50px;left:350px;
   transform: rotate(-30deg);
 }
 
 .heart1 {
   position: relative;
   bottom: 300px;
-  right: 840px;
-}
+  right:740px;
+}.open {
+  position: relative;
+  bottom: 100px;
+  left: 150px;
 
 @media (max-width: 1024px) {
   .quote1 {
