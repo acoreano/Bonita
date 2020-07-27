@@ -128,12 +128,9 @@
   bottom: 3%;
   transform: rotate(29deg);
 }
-.open {
-  position: relative;
-  bottom: 600px;
-  left: 1050px;
-}
-.lock1 {
+
+
+.lock1 {cursor: pointer;
   position: absolute;
   top: 1%;
   left: 1%;
@@ -219,20 +216,12 @@
   }
 }
 
-.page2-list {
-  position: relative;
-  top: 0 px;
-  display: inline-block;
-  width: 10%;
-  list-style: none;
-  background-color: hsla(0, 40%, 91%, 1);
-  height: 100vh;
-}
+
 
 .page2-body {
   margin: 0 auto;
-  width: 80%;
-  height: 100vh;
+ height:100vh;
+  
 }
 
 li {
@@ -247,7 +236,7 @@ li {
 
 .hero {
   position: relative;
-  top: 145px;
+  top: 195px;left:50px;
   display: inline-block;
   background-image: url("yellow1.jpg");
   width: 575px;
@@ -290,15 +279,18 @@ iframe {
   font-size: 80px;
   color: orangered;
   position: relative;
-  bottom: 150px;left:350px;
+  bottom: 50px;left:350px;
   transform: rotate(-30deg);
 }
 
 .heart1 {
   position: relative;
   bottom: 300px;
-  right: 840px;
-}
+  right:740px;
+}.open {cursor: pointer;
+  position: relative;
+  bottom: 400px;
+  left: 150px;
 
 @media (max-width: 1024px) {
   .quote1 {
@@ -387,4 +379,5 @@ iframe {
   .corazon {
     display: none;
   }
+}
 }
