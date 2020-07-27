@@ -111,13 +111,7 @@
   position: absolute;
 }
 
-.butterfly1 {
-  animation-name: butterfly;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  z-index: 1000;
-}
+
 
 .smile {
   font-family: "Gamja Flower", cursive;
@@ -337,8 +331,14 @@ iframe {
   body {
     height: 100vh;
   }
+}}
+.butterfly1 {
+  animation-name: butterfly;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  z-index: 1000;
 }
-
 @keyframes butterfly {
   0% {
     top: 0;
@@ -379,5 +379,4 @@ iframe {
   .corazon {
     display: none;
   }
-}
 }
